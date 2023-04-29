@@ -19,7 +19,7 @@ public class Fear extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
-    public void boostup(View view){
+    public void exercise(View view){
         Intent intent =new Intent(Fear.this,removefear.class);
         startActivity(intent);
         finish();
